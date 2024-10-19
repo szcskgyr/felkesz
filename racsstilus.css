@@ -1,0 +1,43 @@
+nav {
+    grid-area: me;
+}
+
+main {
+    grid-area: fo;
+}
+
+#bejelentkezes {
+    grid-area: be;
+}
+
+#jobbtartalom {
+    grid-area: jo;
+}
+
+#baltartalom {
+    grid-area: ba;
+}
+
+#keszitette {
+    grid-area: ke;
+}
+
+#osztaly {
+    grid-area: os;
+}
+
+footer {
+    grid-area: el;
+}
+
+
+#tartalom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    'me me fo be be'
+    'me me fo ba jo'
+    'ke os el el el'
+    ;
+}

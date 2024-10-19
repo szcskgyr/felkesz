@@ -1,0 +1,103 @@
+body{
+    /*háttérszín beállítás*/
+    background-color: green;
+}
+
+#elso{
+    /*betűszín beállítás*/
+    color: white;
+    /*szöveg vízszintesen középre igazítása*/
+    text-align: center;
+}
+p{
+    color: #000000;
+}
+
+#ananasz{
+    /*magasság*/
+    height: auto;
+    /*szélesség*/
+    /*width: 200px;*/
+    width: 10%;
+    /*kép úsztatása*/
+    float: left; 
+}
+table{
+    /*úsztatás megszüntetése*/
+    /*float: none;
+    float: unset;*/
+    clear: both;
+    background-color: white;
+}
+
+table, td{
+    /*keretezés, szegélyezés*/
+    border: black solid 1px;
+    /*cellák közötti távolság*/
+    border-collapse: collapse;
+}
+
+#mosoly{
+    /*kép háttérkénti beállítása*/
+    background-image: url("smiley2.png");
+    /*teljes kép látszódjon, méret beállítás*/
+    background-size: contain;
+    /*ne ismétlődjön*/
+    background-repeat: no-repeat;
+    /*háttékkép elhelyezkedése adott elemen belül*/
+    background-position: center center;
+}
+
+ol>li{
+    /*lista jelölő elem kikapcsolása*/
+    list-style-type: none;
+    /*lista jelölő elem változtatása georgian sítlusúra*/
+    /*list-style-type: georgian;*/
+}
+
+ul>li{
+    /*lista jelölő elem kép legyen*/
+    list-style-image: url("smiley2.png");
+    /*lista jelölő elem a lista érték területén jelenjen meg*/
+    list-style-position: inside;
+}
+
+#szoveg{
+    background: white;
+    border: grey 1px solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#szoveg a{
+    /*ne legyen aláhúzás*/
+    text-decoration: none;
+}
+
+div p{
+    /*szöveg elsősori behúzása*/
+    text-indent: 50px;
+    /*sorkizárt igazítása szövegnek*/
+    text-align: justify;
+
+}
+
+#kezdo{
+    /*1. megoldás*/
+    /*kiskapitális*/
+    /*font-variant: small-caps;*/
+    /*betűméret állítása*/
+    /*font-size: 130%;*/
+    /*2. megoldás*/
+    /*nagybetűs*/
+    /*text-transform: uppercase;*/
+    /*3. megoldás*/
+    text-transform: capitalize;
+}
+
+/*
+div p{
+    text-transform: capitalize;
+}*/
